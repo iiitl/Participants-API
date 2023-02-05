@@ -9,5 +9,5 @@ const profilesRouter = require("./routes/profiles");
 app.use("/profiles", profilesRouter);
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log("listening at http://localhost:3000/ in development");
+  console.log("listening at http://localhost:3000/ profiles/lit2022048");
 });
